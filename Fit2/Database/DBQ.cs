@@ -15,7 +15,7 @@ namespace Fit2.Database
 
         private DBQ()
         {
-               mongo = new MongoClient("mongodb+srv://user1:L55wPcYTpXeWZ1Ux@cluster0.bzo1m.mongodb.net/FitDB?retryWrites=true&w=majority");
+               mongo = new MongoClient("APIKEY");
         }
 
         private static readonly Lazy<DBQ> lazy = new Lazy<DBQ>(() => new DBQ());
